@@ -1,0 +1,151 @@
+body {
+		background: white;
+		width:100%;
+		height:100%; }
+	
+	.external {
+		margin:0 auto; 
+		width:960px; }
+	 
+	.header {
+		display:block; 
+		height: 200px;  
+		background-color: #FFFF00; 
+		text-shadow: #000 1px 0px 1px; }
+	
+	.tit {
+		text-align: center;
+		padding:80px;}
+		
+	.sidemenu {
+		display:block;		
+		float:left; 
+		width:215px; }
+	
+	.sidebar_dec {
+		position:relative; }
+		 
+	.sidemenu a {  /*pamietac o priorytecie*/
+		text-decoration: none;
+		font-family: Calibri;
+		font-size:20px;
+		color:#6699FF }
+		
+	.content a {
+		text-decoration:none;
+		text-transform:none; }
+		
+	.sidemenu a:hover {
+		text-decoration: overline underline; }	
+		
+	.content {
+		padding-left:20px;  /*suma padding i width = 745 do tefo 215px siedmenu */
+		padding-bottom:20px;
+		display:block;
+		overflow: hidden;  /* zabezpieczenie, jak ktos wstawi za szeroki elemnt to utnie */
+		width:725px;  
+		float:right; }
+	
+	p {
+		font-weight: bold;
+		font-size:16px;
+		font-family: arial, sans-serif; }
+		
+	.al {
+		text-align:right; }
+	
+	.al div {
+		color:green; }
+		
+	caption { /* Choæ w wiêkszych stronach lepiej jest definiowaæ klasy, albo zmienic ten parametr przez dziedziczenie */ 
+		text-align:center; }
+	
+	.imageelements {  /*klasy sa wazne bo powstaja kolizje */
+		padding-top:200px; }
+	
+	input, textarea {
+		background-color: #FFFF00; }
+	
+	table {
+		border-collapse:collapse;   /*separate - komórki oddzielone, collapse - po³¹czone*/
+		empty-cells: hide; 
+		border:5px solid transparent; }  /*na koncu mozna dodac kolor po spacji, torszke modyfikuje to wyglad tabelki w zakladce elements */
+	
+	.tableelements  {
+		border:5px solid red;  }
+	
+	.cw2 {
+		outline-style: none;
+		width:90%;  /* do tabeli*/ 
+		border:none; }
+	
+	.parameters {
+        border:none;
+		width:130px; }
+	
+	.inputwidth {
+		border:none;
+		width:190px; }
+		
+	.inputfilewidth {
+		border:none;
+		width:155px; }
+		
+	.loginsubmitmargin {	
+		margin-left:5em; }
+		
+	.descrwidth {
+		text-align:left;
+		border:none;
+		width:450px; }
+		
+	.cw2image {
+		width:1em; /* jednostka em -> wielkosc czcionki */
+		height:1em; }
+		
+	span {
+		color: red; }
+	
+	td {
+		/*uwga musi byc tu i w tabeli aby byla rekacja */
+		border:solid black;  /*border ma wiele atrybutów: wielkosæ(medium thick(grube), thin, 5px,5mm itd.), styl(obowi¹zkow solid lub double), kolor */
+		text-align:center; }
+		
+	.makecolorred {
+		color:red; }
+
+	.makecolorgreen {
+		color:green; }
+	
+	.BottomElementsPosition {
+		position:relative;
+		left:80%;
+		top:10px; }
+	
+	.bottom {
+		display:block;
+		clear: both;  /*wymagane do poprawnego dzialania ka¿dej stopki */
+		width:100%;
+		height:50px;
+		background-color: #FFCC66;  }
+	
+	.correcttext {
+		color:red;
+		font-size:5px; }
+//formularz na divach
+	br{
+		clear: left;
+	}
+	
+	label{
+		float: left;
+		width: 80px;
+		font-weight: bold;
+	}
+	.submit{
+		margin-left: 80px;
+		margin-top: 5px;
+	}
+	.send textarea,.send input{
+		width:150px;
+	}
